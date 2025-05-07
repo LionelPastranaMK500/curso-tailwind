@@ -1,0 +1,4 @@
+MediaSourceHandle.exports = {
+  content: ["./*.html" ],
+
+}
