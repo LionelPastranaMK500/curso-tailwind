@@ -36,7 +36,6 @@ function ParticlesBackground() {
     );
   }
 
-  // No renderiza nada mientras se está inicializando
   return null;
 }
 
