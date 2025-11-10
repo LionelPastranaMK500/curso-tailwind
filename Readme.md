@@ -1,51 +1,16 @@
-Portafolio Personal
-¡Bienvenido a mi portafolio personal! Este es un sitio web estático que muestra mis habilidades como programador, ofreciendo servicios de diseño web, desarrollo de software personalizado y consultoría técnica. El sitio está diseñado con Tailwind CSS, incluye un formulario de contacto impulsado por Formspree, y está optimizado para ser responsivo, con un menú desplegable para dispositivos móviles. El proyecto está alojado en GitHub Pages para fácil acceso.
-Características
+# React + Vite
 
-Diseño moderno: Fondo con degradado de verde a celeste, tipografía clara y animaciones sutiles.
-Responsividad: Menú desplegable (hamburger menu) en móviles para una mejor navegación.
-Secciones:
-Inicio: Presentación con logo y llamada a la acción.
-Servicios: Diseño Web, Desarrollo de Software Personalizado, Consultoría Técnica.
-Visión y Misión: Mi compromiso con la innovación y la satisfacción del cliente.
-Contacto: Formulario para enviar solicitudes, con mensaje estático de agradecimiento.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
+Currently, two official plugins are available:
 
-Formulario: Envía correos a través de Formspree, con redirección a su página de agradecimiento.
-GitHub Pages: Desplegado para acceso público.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-Estructura del Proyecto
-mi-proyecto/
-├── index.html              # Página principal
-├── images/
-│   ├──logo.jpg
-│   ├── logo.png           # Logo del portafolio
-├── src/
-│   ├── input.css          # Estilos base de Tailwind CSS
-│   ├── output.css         # Estilos compilados
-├── tailwind.config.js     # Configuración de Tailwind CSS
-├── package.json           # Dependencias del proyecto
-├── package-lock.json      # Bloqueo de versiones
-└── README.md              # Documentación
+## React Compiler
 
-Requisitos
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-Node.js y npm: Para instalar y compilar Tailwind CSS.
-Un navegador web moderno.
-Acceso a internet para el formulario de Formspree.
-Una cuenta de Formspree para verificar el dominio.
+## Expanding the ESLint configuration
 
-Créditos
-
-Tailwind CSS: Para el diseño responsivo y moderno.
-Formspree: Para la funcionalidad del formulario.
-GitHub Pages: Para el alojamiento gratuito.
-
-Futuras Mejoras
-
-Migrar a un framework como Vite/React para mayor control sobre el formulario y la navegación.
-Añadir JavaScript para limpiar el formulario tras el envío.
-Incorporar más secciones o un blog para mostrar proyectos.
-
-
-© 2025 Mi Portafolio. Desarrollado con ❤️ por Andriy Lionel Pastrana Cajavilca.
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
