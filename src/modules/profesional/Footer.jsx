@@ -1,6 +1,6 @@
 // 1. Importa los iconos de redes sociales
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import logo from "../assets/logo.png";
+import logo from "../../assets/logo.png";
 
 function Footer() {
   return (

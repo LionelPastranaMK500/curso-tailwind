@@ -1,4 +1,4 @@
-import { projects } from "../data/projects"; // Importa tus nuevos datos
+import { projects } from "../../data/projects";
 
 function Proyectos() {
   return (
